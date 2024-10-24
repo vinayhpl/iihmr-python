@@ -153,6 +153,6 @@ CORS_ALLOW_CREDENTIALS  = True
 CORS_ALLOWED_ORIGINS  =[
      "http://localhost:3000",
     "https://api.iihmr-p.cloudnights.in",
-    https://iihmr-p.cloudnights.in",
+    "https://iihmr-p.cloudnights.in",
     #Add other allowed origins here if needed
 ]
