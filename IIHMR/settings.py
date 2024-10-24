@@ -151,10 +151,8 @@ SESSION_EXPIRE_AFTER_LAST_ACTIVITY = True
 CORS_ALLOW_ALL_ORIGINS  = True
 CORS_ALLOW_CREDENTIALS  = True
 CORS_ALLOWED_ORIGINS  =[
-    "http://localhost:3000",
-    "https://api.iihmrbangalore.in",
-    "https://iihmrbangalore.in",
-    "https://cloudnights.in",
-     "13.60.61.191",
+     "http://localhost:3000",
+    "https://api.iihmr-p.cloudnights.in",
+    https://iihmr-p.cloudnights.in",
     #Add other allowed origins here if needed
 ]
