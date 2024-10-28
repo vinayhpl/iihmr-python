@@ -79,6 +79,21 @@ WSGI_APPLICATION = 'IIHMR.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME':'iihmr_demo',
+#         'USER':'iihmr_user',
+#         'PASSWORD': 'Kavin@410',
+#         'HOST': '65.1.177.181',
+#         'PORT': '3306',
+#         'OPTIONS': {
+#         'sql_mode': 'traditional',
+#         'init_command': 'ALTER DATABASE iihmr_demo CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci',
+#         },
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -93,6 +108,7 @@ DATABASES = {
         },
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
