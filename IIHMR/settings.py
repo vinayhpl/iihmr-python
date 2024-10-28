@@ -104,7 +104,7 @@ DATABASES = {
         'PORT': '3306',
         'OPTIONS': {
         'sql_mode': 'traditional',
-        'init_command': 'ALTER DATABASE iihmr_demo CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci',
+        'init_command': 'ALTER DATABASE iihmr_django CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci',
         },
     }
 }
