@@ -97,10 +97,10 @@ WSGI_APPLICATION = 'IIHMR.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'iihmr_demo',
-        'USER':'iihmr_user',
-        'PASSWORD': 'Kavin@410',
-        'HOST': '65.1.177.181',
+        'NAME':'iihmr_django',
+        'USER':'iihmr_presentation',
+        'PASSWORD': 'vinay@1234',
+        'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {
         'sql_mode': 'traditional',
