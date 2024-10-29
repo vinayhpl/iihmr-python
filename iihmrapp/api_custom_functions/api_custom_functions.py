@@ -17,8 +17,7 @@ def json_validation(json_data):
             return False
     except Exception as e:
         error_log_insert(str(json.dumps(json_data)),'','','','','1','1','1')
-        # sonar-ignore
-        UpdateQTable('',str(json.dumps(json_data)),'','','','','1','1','1') # nosonar
+        UpdateQTable('',str(json.dumps(json_data)),'','','','','1','1','1')
     return False
     # except Exception as e:
     #     error_log_insert(str(json.dumps(json_data))),'','','','','1','1','1')
